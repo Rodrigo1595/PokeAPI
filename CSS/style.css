@@ -1,0 +1,257 @@
+/* Dispositivos extra pequeños smartphones 600px hacia abajo */
+@media screen and(max-width:600px) {}
+
+/* Dispositivos pequeños smartphones tablets  600px hacia arriba */
+@media screen and(min-width:600px) {}
+
+/* Dispositivos medianos tablets 768px hacia arriba */
+@media screen and(min-width:768px) {}
+
+/* Dispositivos grandes laptops/desktops 992px hacia arriba */
+@media screen and(min-width:992px) {}
+
+/* Dispositivos extra-grandes laptos grandes desktops grandes 1200px hacia arriba */
+@media screen and(min-width:1200px) {}
+
+/* Aqui va las configuraciones del carrusel */
+.carousel {
+    width: 70%;
+    height: 70%;
+    /* redondear cada una de las esquinas */
+    border-radius: 25px 25px 25px 25px;
+    /* el overflow muestra (o no) la superposicion de la imagen , si este se muestra no se logra el efecto de redondeo */
+    overflow: hidden;
+
+}
+
+.carousel-item img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-item-form img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.img-about {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 10px;
+    border-color: grey;
+    border-width: 10px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 8px 8px 5px grey;
+
+}
+
+.fondo-panel-interior {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fondo-panel {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    padding: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.container-contacto{
+    height: fit-content;
+    max-width: 1200px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.img-form {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.shadow-card {
+    object-fit: cover;
+    border: 10px;
+    border-color: grey;
+    border-width: 10px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 8px 8px 5px grey;
+}
+
+.texto-carro {
+    text-align: center;
+    color: #1b5802;
+    text-shadow: 0 0 4px gray;
+}
+
+/* Se agrega un padding top de 40px porque hay una stickynavbar y un stickyfooter 55px , esta ocupa espacio del body 
+    por lo tanto se hace un relleno de la altura de la navbar */
+
+.body-main {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../assets/imgs/fondo-patitas.svg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.cambio-color:hover {
+    color: #47DCE2;
+}
+
+.cambio-color:active {
+    color: #27B5D9;
+}
+
+.sombras-texto-navbar-selected {
+    text-shadow: 0 0 3px #27B5D9;
+}
+
+.sombras-texto-navbar-unselected {
+    text-shadow: 0 0 1px black;
+}
+
+.navfooter {
+    background-image: linear-gradient(to right, #9FD693, #87C76D);
+}
+
+.bodyiniciosesion {
+    background-color: whitesmoke;
+}
+
+.footerimgs {
+    color: #EDEAE1;
+}
+
+.footerimgs:hover {
+    color: #47DCE2;
+}
+
+.footerimgs:active {
+    color: #27B5D9;
+}
+
+.hearts {
+    color: red;
+}
+
+.info{
+    color: #47DCE2;
+}
+
+/* Aqui va las configuraciones del carrusel */
+
+
+
+
+/* Aqui va las configuraciones de los botones del formulario */
+
+.btn-formulario {
+    background-color: #47DCE2 !important;
+    color: black !important;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-color: #27B5D9 !important;
+    transition: background-color 0.5s ease;
+}
+
+.btn-formulario:hover {
+    background-color: #2CC9DA !important;
+    color: whitesmoke !important;
+    border-color: whitesmoke !important;
+
+}
+
+.btn-formulario:active {
+    background-color: #27B5D9 !important;
+    color: black !important;
+    border-color: black !important;
+
+}
+
+
+.btn-formulario-carta {
+    background-color: #9FD693 !important;
+    color: black !important;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-color: grey !important;
+    transition: background-color 0.5s ease;
+}
+
+.btn-formulario-carta:hover {
+    background-color: #87C76D !important;
+    color: whitesmoke !important;
+    border-color: whitesmoke !important;
+
+}
+
+.btn-formulario-carta:active {
+    background-color: #87C76D !important;
+    color: black !important;
+    border-color: black !important;
+
+}
+
+
+.btn-aceptar {
+    color: white !important;
+    background-color: #87C76D !important;
+    border: beige;
+    border-radius: 5px;
+}
+
+.btn-aceptar:hover {
+    background-color: #1b5802 !important;
+    color: whitesmoke !important;
+
+}
+
+.btn-aceptar:active {
+    background-color: whitesmoke !important;
+    color: #1b5802 !important;
+
+}
+
+.btn-opcionDos {
+    color: white !important;
+    background-color: darkcyan !important;
+    border: beige;
+    border-radius: 5px;
+}
+
+.btn-opcionDos:hover {
+    background-color: darkslategray !important;
+    color: whitesmoke !important;
+
+}
+
+.btn-opcionDos:active {
+    background-color: whitesmoke !important;
+    color: darkslategray !important;
+
+}
+
+.btn-popover{
+    color: white !important;
+    background-color: darkcyan !important;
+    border: beige;
+    border-radius: 5px
+}
+
+.btn-popover:hover {
+    background-color: darkslategray !important;
+    color: whitesmoke !important;
+
+}
+
+.btn-popover:active {
+    background-color: whitesmoke !important;
+    color: darkslategray !important;
+
+}

@@ -1,0 +1,21 @@
+.pokebola{
+    max-height: 50px;
+    max-width:  50px;
+}
+
+.fondo-panel-interior {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fondo-panel {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    padding: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fondo-pkmn{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../assets/imgs/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
