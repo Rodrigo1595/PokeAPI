@@ -10,7 +10,7 @@
     <title>PókeAPI DUOCUC</title>
 </head>
 
-<body class="fondo-pkmn">
+<body class="fondo-pkmn" id="bodyIdPkmn">
     <div class="container">
         <div class="row m-4">
             <div class="col-8 d-flex justify-content-end"><h1 class="display-6"> Bienvenido a la POKEAPI</h1></div>
@@ -18,30 +18,28 @@
         </div>
         <div class="row m-3 p-5">
             <section class="text-center mt-1 mb-3">
-              <h1 class="display-5"> Pokemon 1</h1>
+              <h1 class="display-5" id="idTituloPkmn"></h1>
             </section>
             <div class="col-md-8 text-center my-auto">
-              <div class="ms-5 text-center fondo-panel border border-dark-subtle">
-                <p class="lead">
-                  “Salva un Animalito” (SUA) es una organización no gubernamental
-                  dedicada a la noble causa de salvar vidas animales.
-                  <br />
-                  En SUA, creemos que cada animal merece una segunda oportunidad.
-                </p>
+              <div class="ms-5 text-center fondo-panel border border-dark-subtle" id="idPkmnInfo">
+                <!-- <p class="lead" id="idHabilidadesPkmn">
+                  
+                </p> -->
               </div>
             </div>
             <div class="col-md-4 text-center my-auto">
               <div class="text-center">
                 <img
-                  src="assets/imgs/homeless-dog.jpg"
-                  alt="Imagen Perro abandonado"
+                  src=""
+                  alt=""
                   class="img-about"
+                  id="idImgPkmn"
                 />
               </div>
             </div>
           </div>
     
-          <div class="row m-3 p-5 flex-row-reverse">
+          <!-- <div class="row m-3 p-5 flex-row-reverse">
             <section class="text-center mt-3 mb-3">
               <h1 class="display-5">Pokemon 2</h1>
             </section>
@@ -62,11 +60,11 @@
                 />
               </div>
             </div>
-          </div>
+          </div> -->
 
     </div>
 
-
+    <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
@@ -77,8 +75,8 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
     <script src="JS/jquery-3.7.1.min.js"></script>
-
     <script src="JS/index.js"></script>
+    <!-- /scripts -->
 </body>
 
 </html>
